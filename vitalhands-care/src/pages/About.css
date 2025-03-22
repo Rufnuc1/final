@@ -1,0 +1,239 @@
+/* General Styles */
+.about-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    position: relative;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-hero p {
+    font-size: 1.5rem;
+  }
+  
+  /* Introduction Section */
+  .introduction-section {
+    padding: 4rem 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .introduction-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .introduction-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+/* Expertise Section */
+.expertise-section {
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .expertise-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .expertise-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+  }
+  
+  .expertise-list {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 2rem;
+  }
+  
+  .expertise-list li {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .expertise-list strong {
+    color: #ff6347;
+  }
+  
+  /* Nationwide Availability Section */
+  .availability-section {
+    padding: 4rem 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .availability-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .availability-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .availability-icon .icon {
+    font-size: 3rem;
+    color: #ff6347;
+    margin-top: 1rem;
+  }
+  
+  /* Mission and Vision Section */
+  .mission-vision {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 1rem;
+    background-color: white;
+  }
+  
+  .mission, .vision {
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .mission-vision .icon {
+    font-size: 3rem;
+    color: #ff6347;
+    margin-bottom: 1rem;
+  }
+  
+  .mission-vision h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .mission-vision p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Team Section */
+  .team-section {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .team-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+  }
+  
+  .team-card img {
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .team-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-card p {
+    font-size: 0.5rem;
+    color: #666;
+  }
+  
+  /* Call-to-Action Section */
+  .cta-section {
+    padding: 4rem 1rem;
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #ff6347;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e5533d;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .mission-vision {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .team-members {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cta-section h2 {
+      font-size: 2rem;
+    }
+  
+    .cta-section p {
+      font-size: 1rem;
+    }
+  }

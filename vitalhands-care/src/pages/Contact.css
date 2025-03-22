@@ -1,0 +1,148 @@
+/* General Styles */
+.contact-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.contact-hero {
+    position: relative;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .contact-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-hero p {
+    font-size: 1.5rem;
+  }
+
+/* Contact Information Section */
+.contact-info {
+  padding: 4rem 1rem;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: #ff6347;
+  margin-bottom: 1rem;
+}
+
+.contact-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-item p {
+  font-size: 1rem;
+  color: #666;
+  justify-content: center;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.contact-form-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Google Maps Section */
+.map-section {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.map-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Social Media Section */
+.social-media-section {
+  padding: 4rem 1rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.social-media-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: #ff6347;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #e5533d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-item {
+    max-width: 100%;
+  }
+
+  .map-container iframe {
+    height: 300px;
+  }
+}
